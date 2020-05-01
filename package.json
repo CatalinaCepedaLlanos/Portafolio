@@ -1,0 +1,24 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatalinaCepedaLlanos/Portafolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CatalinaCepedaLlanos/Portafolio/issues"
+  },
+  "homepage": "https://github.com/CatalinaCepedaLlanos/Portafolio#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-connect": "^2.1.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
