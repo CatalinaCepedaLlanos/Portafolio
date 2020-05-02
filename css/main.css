@@ -1574,7 +1574,7 @@ nav a:hover{
     color:#fff
 }
 .section-gap{
-    padding:120px 0
+    padding:40px 0
 }
 .section-title{
     padding-bottom:30px
@@ -1644,7 +1644,7 @@ nav a:hover{
 .primary-btn.hover:after{
     opacity:1
 }
-.p1-gradient-bg,.banner-area,.banner-area .genric-btn:hover,.generic-banner,.process-area,.service-area .next-trigger:hover,.service-area .prev-trigger:hover,.footer-social a:hover{
+.p1-gradient-bg,.banner-area,.banner-area .genric-btn:hover,.generic-banner,.service-area .next-trigger:hover,.service-area .prev-trigger:hover,.footer-social a:hover{
     background-image: linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
     background-image:-moz-linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
     background-image:-webkit-linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
@@ -1891,17 +1891,18 @@ nav a:hover{
     text-align:center
 }
 .process-area .single-process .lnr{
+    color: #453F3F;
     font-size:30px
 }
 .process-area .single-process .dot{
-    background:#fff;
+    background:#453F3F;
     position:absolute;
     margin-top:26px;
     margin-left:45%;
     width:10px;
     height:10px;
     border-radius:50px;
-    border:2px solid #fff
+    border:2px solid #453F3F
 }
 @media (max-width: 768px){
     .process-area .single-process .dot{
@@ -1912,9 +1913,10 @@ nav a:hover{
     font-size:14px;
     font-weight:600;
     letter-spacing:2px;
-    border-top:2px solid #fff;
+    border-top:2px solid #453F3F;
     margin-top:30px;
-    padding-top:30px
+    padding-top:30px;
+    color: #453F3F
 }
 @media (max-width: 768px){
     .process-area .single-process{
