@@ -1645,14 +1645,16 @@ nav a:hover{
     opacity:1
 }
 .p1-gradient-bg,.banner-area,.banner-area .genric-btn:hover,.generic-banner,.process-area,.service-area .next-trigger:hover,.service-area .prev-trigger:hover,.footer-social a:hover{
-    background-image:-moz-linear-gradient(90deg, #f6d0c5 0%, #f28dcc 100%);
-    background-image:-webkit-linear-gradient(90deg, #f6d0c5 0%, #f28dcc 100%);
+    background-image: linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
+    background-image:-moz-linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
+    background-image:-webkit-linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
     background-image:-ms-linear-gradient(190eg, #f6d0c5 0%, #f28dcc 100%)
 }
 .p2-gradient-bg,.primary-btn:after{
-    background-image:-moz-linear-gradient(190deg, #f6d0c5 0%, #f28dcc 100%);
-    background-image:-webkit-linear-gradient(190deg, #f6d0c5 0%, #f28dcc 100%);
-    background-image:-ms-linear-gradient(190deg, #f6d0c5 0%, #f28dcc 100%)
+    background-image: linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
+    background-image:-moz-linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
+    background-image:-webkit-linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871);
+    background-image:-ms-linear-gradient(to right top, #f28dcc, #ff95ac, #ffae88, #ffd26e, #f9f871)
 }
 .p1-gradient-color{
     background:-moz-linear-gradient(0deg, #91d1ff, #a387ff);
