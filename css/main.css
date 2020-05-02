@@ -922,8 +922,8 @@ h1,h2,h3,h4,h5,h6{
     margin-left:30px
 }
 .ordered-list li{
-    list-style-type:decimal-leading-zero;
-    color:#fcd2ff;
+    list-style-type:decimal;
+    /* color:#fcd2ff; */
     font-weight:500;
     line-height:1.82em !important
 }
