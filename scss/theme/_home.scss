@@ -51,7 +51,6 @@
 	}
 	&:hover {
 		color: $white;
-		ba
 		border: 1px solid transparent;
 		&:after {
 			opacity: 1;
@@ -399,7 +398,7 @@
 
 
 .service-area {
-	background: url(../img/test-bg.jpg) no-repeat center center/cover;
+	// background: url(../img/test-bg.jpg) no-repeat center center/cover;
 	.overlay-bg {
 		background: rgba($black, .80);
 	}
