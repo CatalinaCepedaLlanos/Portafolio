@@ -32,24 +32,44 @@
 	</head>
 	<body>
 		<!-- Start Header Area -->
-		<header class="default-header">
-			<div class="container">
-				<div class="header-wrap">
-					<div class="header-top d-flex justify-content-between align-items-center">
-						<div class="logo">
-							<a href="index.html"><img src="img/logo.png" alt=""></a>
-						</div>
-						<div class="main-menubar d-flex align-items-center">
-							<nav class="">
-								<a href="index.html">Inicio</a>
-								<a href="proyectos.html">Proyectos</a>
+		<header class="default-header d-none d-sm-block">
+      <div class="container">
+        <div class="header-wrap">
+          <div class="header-top d-flex justify-content-between align-items-center">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="main-menubar d-flex align-items-center">
+              <nav class="d-none d-sm-block">
+                <a href="index.html">Inicio</a>
+                <a href="proyectos.html">Proyectos</a>
                 <a href="#footer">Contacto</a>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Mobile Menu -->
+    <header class="default-header d-sm-none">
+      <div class="container">
+        <div class="header-wrap">
+          <div class="header-top d-flex justify-content-between align-items-center">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="main-menubar d-flex align-items-center">
+              <nav class="hide">
+                <a href="index.html">Inicio</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="#footer">Contacto</a>
+              </nav>
+              <div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 		<!-- End Header Area -->
 		<!-- Start Banner Area -->
 		<section class="generic-banner relative">
@@ -80,40 +100,38 @@
 
       <!-- Start process Area -->
       <section class="process-area pt-100 pb-100">
-
-          <div class="row">
-            <div class="col-lg-2 col-sm-6 single-process no-padding">
-              <span class="lnr lnr-magic-wand"></span>
-              <div class="center-block dot"></div>
-              <h2 class="text-uppercase">Brainstorm</h2>
-            </div>
-            <div class="col-lg-2 col-sm-6 single-process no-padding">
-              <span class="lnr lnr-sun"></span>
-              <div class="d-flex justify-content-center dot"></div>
-              <h2 class="text-uppercase">Discuss Ideas</h2>
-            </div>
-            <div class="col-lg-2 col-sm-6 single-process no-padding">
-              <span class="lnr lnr-spell-check"></span>
-              <div class="d-flex justify-content-center dot"></div>
-              <h2 class="text-uppercase">Projections</h2>
-            </div>
-            <div class="col-lg-2 col-sm-6 single-process no-padding">
-              <span class="lnr lnr-rocket"></span>
-              <div class="dot"></div>
-              <h2 class="text-uppercase">Strategies</h2>
-            </div>
-            <div class="col-lg-2 col-sm-6 single-process no-padding">
-              <span class="lnr lnr-chart-bars"></span>
-              <div class="d-flex justify-content-center dot"></div>
-              <h2 class="text-uppercase">Seo Target</h2>
-            </div>
-            <div class="col-lg-2 col-sm-6 single-process no-padding">
-              <span class="lnr lnr-diamond"></span>
-              <div class="d-flex justify-content-center dot"></div>
-              <h2 class="text-uppercase">Awards</h2>
-            </div>
+        <div class="row ml-5 mr-5">
+          <div class="col-lg-2 col-sm-6 single-process no-padding">
+            <span class="lnr lnr-magic-wand"></span>
+            <div class="center-block dot"></div>
+            <h2 class="text-uppercase">Brainstorm</h2>
           </div>
-
+          <div class="col-lg-2 col-sm-6 single-process no-padding">
+            <span class="lnr lnr-sun"></span>
+            <div class="d-flex justify-content-center dot"></div>
+            <h2 class="text-uppercase">Discuss Ideas</h2>
+          </div>
+          <div class="col-lg-2 col-sm-6 single-process no-padding">
+            <span class="lnr lnr-spell-check"></span>
+            <div class="d-flex justify-content-center dot"></div>
+            <h2 class="text-uppercase">Projections</h2>
+          </div>
+          <div class="col-lg-2 col-sm-6 single-process no-padding">
+            <span class="lnr lnr-rocket"></span>
+            <div class="dot"></div>
+            <h2 class="text-uppercase">Strategies</h2>
+          </div>
+          <div class="col-lg-2 col-sm-6 single-process no-padding">
+            <span class="lnr lnr-chart-bars"></span>
+            <div class="d-flex justify-content-center dot"></div>
+            <h2 class="text-uppercase">Seo Target</h2>
+          </div>
+          <div class="col-lg-2 col-sm-6 single-process no-padding">
+            <span class="lnr lnr-diamond"></span>
+            <div class="d-flex justify-content-center dot"></div>
+            <h2 class="text-uppercase">Awards</h2>
+          </div>
+        </div>
       </section>
       <!-- End process Area -->
 
@@ -165,14 +183,16 @@
           </p>
         </div>
       </div>
-  
-    </div>
     
-    <div class="col-md-12">
-      <a href="img/JourneyCopadas.svg" class="img-pop-up">
-        <img src="img/JourneyCopadas.svg" class="img-fluid" alt="copadas journey"/>
-      </a>
-    </div>
+      <div class="row">
+        <div class="col-md-12">
+          <a href="img/JourneyCopadas.svg" class="img-pop-up">
+            <img src="img/JourneyCopadas.svg" class="img-fluid" alt="copadas journey"/>
+          </a>
+        </div>
+      </div>
+
+    </div>  
 
 		<!-- Start Newsletter Area -->
 		<section class="subscription-area pt-40 pb-40">
@@ -218,11 +238,18 @@
           </p>
         </div>
       </div>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <a href="img/SitemapCopadas.svg" class="img-pop-up">
+            <img src="img/SitemapCopadas.svg" class="img-fluid" alt="copadas sitemap"/>
+          </a>
+        </div>
+      </div>
+    
     </div>
 
-    <a href="img/SitemapCopadas.svg" class="img-pop-up">
-      <img src="img/SitemapCopadas.svg" class="img-fluid" alt="copadas sitemap"/>
-    </a>
+
 
     <div class="container">  
       <div class="row">

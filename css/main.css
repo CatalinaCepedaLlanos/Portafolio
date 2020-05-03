@@ -35,7 +35,7 @@
 body{
     color:#777;
     font-family:"Poppins",sans-serif;
-    font-size:14px;
+    font-size:15px;
     font-weight:300;
     line-height:1.625em;
     position:relative
@@ -1538,21 +1538,21 @@ nav{
 }
 @media (max-width: 767px){
     nav{
-        margin-right:0;
-        position:absolute;
+        margin-right:10px;
+        /* position:absolute;
         right:0;
         top:47px;
         text-align:right;
         padding:20px 0;
         z-index:5;
-        background:#fff
+        background:#fff */
     }
-    nav a{
+    /* nav a{
         color:#fcd2ff !important
     }
     nav a:hover{
         color:#fcd2ff
-    }
+    } */
 }
 nav.hide{
     transform:scale(0)
@@ -1567,7 +1567,7 @@ nav a{
 }
 @media (max-width: 767px){
     nav a{
-        margin:5px 25px
+        margin:0px 10px
     }
 }
 nav a:hover{
@@ -1690,7 +1690,7 @@ nav a:hover{
     font-weight:200;
     line-height:1.15em;
     margin-bottom:20px;
-    text-shadow:13px 15px 8px #f2c4d0
+    /* text-shadow:13px 15px 8px #f2c4d0 */
 }
 @media (max-width: 991px){
     .banner-content h1{
