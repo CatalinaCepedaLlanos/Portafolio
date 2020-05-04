@@ -927,9 +927,15 @@ h1,h2,h3,h4,h5,h6{
     font-weight:500;
     line-height:1.82em !important
 }
-.ordered-list li span{
+.ordered-list li span, .ordered-list-disc li span{
     font-weight:300;
     color:#777
+}
+.ordered-list-disc li{
+  list-style-type:disc;
+  /* color:#fcd2ff; */
+  font-weight:500;
+  line-height:1.82em !important
 }
 .ordered-list-alpha li{
     margin-left:30px;
@@ -1665,7 +1671,7 @@ nav a:hover{
 }
 @media (max-width: 767px){
     .banner-area .fullscreen{
-        height:700px !important
+        height:100vh !important
     }
 }
 .banner-area .genric-btn{
