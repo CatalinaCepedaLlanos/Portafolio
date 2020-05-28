@@ -69,13 +69,13 @@ $(document).ready(function(){
 
 
 
-    $('.play-btn').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
+    // $('.play-btn').magnificPopup({
+    //     type: 'iframe',
+    //     mainClass: 'mfp-fade',
+    //     removalDelay: 160,
+    //     preloader: false,
+    //     fixedContentPos: false
+    // });
     $(document).ready(function() {
         $('#mc_embed_signup').find('form').ajaxChimp();
     });      
