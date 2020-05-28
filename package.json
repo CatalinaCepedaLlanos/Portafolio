@@ -1,6 +1,7 @@
 {
   "name": "portafolio",
   "version": "2.0.0",
+  "type": "module",
   "description": "",
   "scripts": {
     "start": "parcel ./src/index.html",
@@ -10,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/CatalinaCepedaLlanos/Portafolio.git"
   },
-  "author": "",
+  "author": "Nicolás Román",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CatalinaCepedaLlanos/Portafolio/issues"
