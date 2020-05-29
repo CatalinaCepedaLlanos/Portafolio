@@ -30,6 +30,7 @@
     "@babel/core": "^7.10.1",
     "@babel/preset-react": "^7.10.1",
     "babel-core": "^6.26.3",
+    "parcel-plugin-static-files-copy": "^2.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
