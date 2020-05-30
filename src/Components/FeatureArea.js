@@ -12,15 +12,15 @@ export default ({ url, subTitle, name, description, img, alignImg, background })
               <div>
                 <h5>{subTitle}</h5>
                 <h2>
-                <span>{name}</span>
+                  <span>{name}</span>
                 </h2>
                 <p>
-                {description}
+                  {description}
                 </p>
                 <Link to={url}>
                   <button className="primary-btn hover d-inline-flex align-items-center">
-                      <span className="mr-10">Leer Más</span>
-                      <span className="lnr lnr-arrow-right"></span>
+                    <span className="mr-10">Leer Más</span>
+                    <span className="lnr lnr-arrow-right"></span>
                   </button>
                 </Link>
               </div>
