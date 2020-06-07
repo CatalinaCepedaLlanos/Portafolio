@@ -65,7 +65,9 @@ export default () => {
         </div>
 
         <ImgRow src="UserCopadas1.svg" alt="copadas user persona 1" />
-        <ImgRow src="UserCopadas2.svg" alt="copadas user persona 2" />
+        <div className="pt-20">
+            <ImgRow src="UserCopadas2.svg" alt="copadas user persona 2" />
+        </div>
 
         <div className="row pt-40">
           <div className="col-md-12">

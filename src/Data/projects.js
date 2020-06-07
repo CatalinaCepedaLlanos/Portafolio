@@ -51,7 +51,7 @@ export default [
     background: false,
     url: 'oktoshop',
     subTitle: 'Diseño de Interfaz',
-    description: 'Este proyecto consistió en rediseñar la aplicación, identificando los principales problemas: navegación, interfaz, funcionalidad y usabilidad. Además, crear una propuesta gráfica funcional para mejorar la experiencia del usuario en la aplicación.',
+      description: 'Es una aplicación que ayuda a las personas a saber rápidamente si pueden o no consumir un alimento en función de sus restricciones o alergias alimentarias.',
     resume: {
       duration: "3 semanas",
       rol: "investigación de usuarios, jerarquía de la información, prototipado e interacción",

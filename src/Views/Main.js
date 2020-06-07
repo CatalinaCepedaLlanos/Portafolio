@@ -1,6 +1,6 @@
-import React from 'react';
-import Banner from '../Components/Banner';
-import FeatureArea from '../Components/FeatureArea';
+import React from 'react'
+import Banner from '../Components/Banner'
+import FeatureArea from '../Components/FeatureArea'
 
 import projects from '../Data/projects'
 

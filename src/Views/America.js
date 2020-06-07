@@ -73,8 +73,9 @@ export default () => {
         </div>
 
         <ImgRow src="SocioFilantropoAmericaSolidaria.svg" alt="América solidaria user persona 1" />
-
-        <ImgRow src="SocioSocialAmericaSolidaria.svg" alt="América solidaria user persona 2" />
+        <div className="pt-20">
+            <ImgRow src="SocioSocialAmericaSolidaria.svg" alt="América solidaria user persona 2" />
+        </div>
 
         <div className="row pt-40">
           <div className="col-md-12">
