@@ -238,19 +238,19 @@ export default () => {
           </div>
         </div>
 
-        <div class="row pt-20">
-          <div class="col-md-10 offset-md-1">
-            <div class="row">
-              <div class="col-md-12 text-center">
+        <div className="row pt-20">
+          <div className="col-md-10 offset-md-1">
+            <div className="row">
+              <div className="col-md-12 text-center">
                 <Image src="Userflow.png" width={500} height={800} alt="User Flow OTS" />
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row pt-20">
-          <div class="col-md-12">
-            <p class="sample-text">
+        <div className="row pt-20">
+          <div className="col-md-12">
+            <p className="sample-text">
               Puedes ver el siguiente video con el prototipo final y las interacciones de este.
             </p>  
           </div>
