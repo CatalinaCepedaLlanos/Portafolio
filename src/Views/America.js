@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import projects from "./../Data/projects";
 import SecondaryBanner from '../Components/SecondaryBanner'
@@ -9,9 +9,13 @@ import Image from '../Components/Image'
 import Poster from '../Components/Poster'
 import WistiaEmbed from '../Components/WistiaEmbed'
 import ImgGallery from '../Components/ImgGallery'
-
+import baguetteBox from 'baguettebox.js'
 
 export default () => {
+  useEffect(() => {
+    baguetteBox.run('.grid-gallery', { animation: 'slideIn' })
+  }, [])
+
   const america = projects.find(p => p.name === 'América Solidaria')
 
   return (
@@ -69,8 +73,9 @@ export default () => {
         </div>
 
         <ImgRow src="SocioFilantropoAmericaSolidaria.svg" alt="América solidaria user persona 1" />
-
-        <ImgRow src="SocioSocialAmericaSolidaria.svg" alt="América solidaria user persona 2" />
+        <div className="pt-20">
+            <ImgRow src="SocioSocialAmericaSolidaria.svg" alt="América solidaria user persona 2" />
+        </div>
 
         <div className="row pt-40">
           <div className="col-md-12">

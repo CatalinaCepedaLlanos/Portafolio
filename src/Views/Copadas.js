@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import projects from "./../Data/projects";
 import SecondaryBanner from '../Components/SecondaryBanner'
@@ -9,9 +9,14 @@ import Image from '../Components/Image'
 import Poster from '../Components/Poster'
 import WistiaEmbed from '../Components/WistiaEmbed'
 import ImgGallery from '../Components/ImgGallery'
-
+import baguetteBox from 'baguettebox.js'
 
 export default () => {
+
+  useEffect(() => {
+    baguetteBox.run('.grid-gallery', { animation: 'slideIn' })
+  }, [])
+
   const copadas = projects.find(p => p.name === 'Copadas')
 
   return (
@@ -60,19 +65,9 @@ export default () => {
         </div>
 
         <ImgRow src="UserCopadas1.svg" alt="copadas user persona 1" />
-        <ImgRow src="UserCopadas2.svg" alt="copadas user persona 2" />
-
-        <div className="row pt-20">
-          <div className="col-md-12">
-            <p className="sample-text">
-              Para poder tener más claro a qué público objetivo apuntábamos, decidimos usar esta herramienta, que nos ayudó a visualizar de mejor manera los puntos que debíamos abordar para realizar las propuestas del modelo de fidelización.
-            </p>
-          </div>
+        <div className="pt-20">
+            <ImgRow src="UserCopadas2.svg" alt="copadas user persona 2" />
         </div>
-
-        <ImgRow src="SocioFilantropocopadasSolidaria.svg" alt="América solidaria user persona 1" />
-
-        <ImgRow src="SocioSocialcopadasSolidaria.svg" alt="América solidaria user persona 2" />
 
         <div className="row pt-40">
           <div className="col-md-12">

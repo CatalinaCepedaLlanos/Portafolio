@@ -1,6 +1,6 @@
 import React from 'react'
 
-import projects from "./../Data/projects";
+import projects from "./../Data/projects"
 import SecondaryBanner from '../Components/SecondaryBanner'
 import Resume from '../Components/Resume'
 import LineTime from '../Components/LineTime'
@@ -11,6 +11,7 @@ import WistiaEmbed from '../Components/WistiaEmbed'
 
 
 export default () => {
+
   const okToShop = projects.find(p => p.name === 'OK TO SHOP')
 
   return (

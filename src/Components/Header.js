@@ -12,7 +12,7 @@ export default () => {
                 <div className="logo"></div>
                 <div className="main-menubar d-flex align-items-center">
                   <nav className="d-none d-sm-block">
-                    <Link to="/">Home</Link>
+                    <Link to="/">Inicio</Link>
                     <Link to="/proyectos">Proyectos</Link>
                     <a href="https://catacepedallanos.com/img/Catalina_Cepeda_Llanos_VisualCV_Resume.pdf" target="_blank">Currículum</a>
                     <a href="#footer">Contacto</a>
@@ -30,7 +30,7 @@ export default () => {
                 <div className="logo"></div>
                 <div className="main-menubar d-flex align-items-center">
                   <nav className="hide">
-                    <Link to="/">Home</Link>
+                    <Link to="/">Inicio</Link>
                     <Link to="/proyectos">Proyectos</Link>
                     <a href="https://catacepedallanos.com/img/Catalina_Cepeda_Llanos_VisualCV_Resume.pdf" target="_blank">CV</a>
                     <a href="#footer">Contacto</a>

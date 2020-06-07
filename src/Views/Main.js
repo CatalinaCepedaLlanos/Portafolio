@@ -1,10 +1,11 @@
-import React from 'react';
-import Banner from '../Components/Banner';
-import FeatureArea from '../Components/FeatureArea';
+import React from 'react'
+import Banner from '../Components/Banner'
+import FeatureArea from '../Components/FeatureArea'
 
 import projects from '../Data/projects'
 
 export default () => {
+  const isMobile = (typeof window.orientation !== 'undefined') || (navigator.userAgent.indexOf('IEMobile') !== -1)
   return(
     <React.Fragment>
       <Banner />
@@ -17,7 +18,7 @@ export default () => {
             name={name}
             description={description}
             img={img}
-            alignImg={alignImg}
+            alignImg={isMobile ? 'right' : alignImg}
             background={background}
           />
         )
